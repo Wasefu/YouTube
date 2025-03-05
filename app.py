@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Cookies file ka path (Render ke server pe)
-COOKIES_PATH = "/app/cookies.txt"
+COOKIES_PATH = "cookies.txt"
 
 @app.route('/download', methods=['GET'])
 def download_video():
